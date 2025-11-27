@@ -1,0 +1,60 @@
+.fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+ font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  .rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.dynapuff-<uniquifier> {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+<div class="tooltip-box">70%</div>
+
+<style>
+.tooltip-box {
+  display: inline-block;
+  background: #4B2FA7;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 24px;
+  border-radius: 8px;
+  position: relative;
+  font-weight: bold;
+}
+.tooltip-box::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #4B2FA7;
+}
+</style>
